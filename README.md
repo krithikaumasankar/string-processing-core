@@ -18,30 +18,61 @@ This project represents my journey toward professional software development by e
 
 ---
 
+## 📊 Project Scale
+
+* 📦 **Total Modules:** 13
+* 🧩 **Core Categories:** 4 (Transformations, Analysis, Validation, Logic)
+* ⚙️ **Architecture:** Modular & organized
+
+---
+
 ## ⚙️ System Modules
 
 * **Token Length Filtering**
+* **Substring Search Operations**
+* **Occurrence Counting Systems**
+* **Vowel-Consonant Analysis**
 * **Index Parity Partitioning**
 * **Lexical Equivalence Validation (Anagram Detection)**
-* **Credential Policy Enforcement**
 * **Run-Length Pattern Decoding**
-* **Context-Aware String Transformation**
+* **Delimiter-Based Transformations**
+* **Suffix Handling Operations**
+* **Case Transformation Utilities**
+* **Palindrome Validation**
+* **Password Strength Enforcement**
+* **String Rotation Validation**
 
 ---
 
 ## 🏗️ Repository Structure
 
-```id="4n2jds"
-string-processing-core/
+```bash
+String-ProcessingCore/
 │
-├── core/
-│   ├── transformations/
-│   ├── analysis/
-│   ├── validation/
-│   └── logic/
+├── analysis/
+│   ├── long_word_filter.py
+│   ├── occurrence_counter.py
+│   ├── substring_search.py
+│   └── vowel_consonant_analysis.py
 │
-└── cli/
-    └── main.py
+├── logic/
+│   ├── anagram_detector.py
+│   ├── index_parity_partition.py
+│   └── run_length_decoder.py
+│
+├── transformations/
+│   ├── delimiter_transform.py
+│   ├── suffix_handler.py
+│   └── swap_case_transform.py
+│
+├── validation/
+│   ├── palindrome_checker.py
+│   ├── password_strength_checker.py
+│   └── rotation_validator.py
+│
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ---
